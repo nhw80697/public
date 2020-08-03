@@ -25,5 +25,5 @@ app.all('/', (req, res) => {
     //   // if (err) throw err;
     //   res.send(result);
     // });
-    res.send("hello")
+    res.send("שלום")
 });
