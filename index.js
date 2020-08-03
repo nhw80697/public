@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000
 var con = mysql.createConnection({
   host: "sql7.freemysqlhosting.net",
   user: "sql7357169",
-  password: "KlA2Wh7suy",
+  password: "203564778",
   database: "sql7357169"
 });
 
