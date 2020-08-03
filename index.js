@@ -34,5 +34,5 @@ app.all('/', (req, res) => {
     //   // if (err) throw err;
     //   res.send(result);
     // });
-    res.send("נפתלי וילהלם")
+    res.send("גן הפעמון")
 });
