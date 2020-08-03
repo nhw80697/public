@@ -1,10 +1,19 @@
 const express = require('express');
 const app = express();
 const mysql = require('mysql');
+const { Client } = require('pg');
+
 const PORT = process.env.PORT || 5000
 
 
+const client = new Client({
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false
+  }
+});
 
+client.connect();
 // var con = mysql.createConnection({
 //   host: "sql7.freemysqlhosting.net",
 //   user: "sql7357169",
